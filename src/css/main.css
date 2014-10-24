@@ -13,6 +13,33 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+#wrapper {
+width: 960px;
+background-color: yellow;
+margin-left: auto;
+margin-right: auto;
+}
+#branding {
+background-color: red
+}
+#Menu {
+background-color: green
+}
+#Content {
+background-color: white;
+width: 593px;
+float: left
+}
+#Sidebar {
+background-color: pink;
+width: 367px;
+float: left;
+}
+
+#Footer {
+clear: both
+barckground-color: blue;
+}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
