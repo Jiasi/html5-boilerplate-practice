@@ -15,30 +15,78 @@ html {
 }
 #wrapper {
 width: 960px;
-background-color: yellow;
 margin-left: auto;
 margin-right: auto;
 }
-#branding {
-background-color: red
+h1 {
+font-size: 220%;
+  }
+h2 {
+font-size: 200%;
+    }
+h3 {
+font-size: 180%;
+ }
+h4 {
+font-size: 160%;
 }
+h5 {
+font-size: 140%;
+}
+h6 {
+font-size: 120%;
+}
+
+#article_heading {
+height: 86px;
+line-height: 86px;
+}
+
 #Menu {
 background-color: green
 }
+#Menu {
+height: 56px;
+line-height: 56px;
+    }
+#Menu ul, li {
+margin: 2px;
+ }
+#Menu li {
+display: inline;
+}
+
 #Content {
 background-color: white;
-width: 593px;
-float: left
+width: 898px;
+padding-left: 31px;
+padding-right: 31px;
+text-align: justify;
+}
+#article_heading {
+height: 86px;
+line-height: 86px;
+}
+#article_photo img {
+height: 338px;
+width: 338px;
+float: right;
+padding: 9px;
+margin: 10px;
 }
 #Sidebar {
 background-color: pink;
 width: 367px;
 float: left;
 }
+#logo {
+width: 86px;
+height: 86px;
+}
 
 #Footer {
 clear: both
-barckground-color: blue;
+background-color: blue;
 }
 
 /*
